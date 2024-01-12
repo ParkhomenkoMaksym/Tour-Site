@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Tour Ireland</title>
+</head>
+
+<body>
+    <div class="pageContainer">
+        <header>
+            <!-- <h1>Not yet applied</h1> -->
+            <p id="imgTour">
+                <!-- logo -->
+                <img src="../Images/tour_ireland-Logo.png.png" alt="Tour Ireland" width="177px">
+            </p>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="../index.html">Home</a> </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="attraction.html">Attraction</a></li>
+                    <li><a href="event.html">Event</a></li>
+                    <li class="selected">Contact</li>
+
+                </ul>
+            </nav>
+            <p id="cart"><a href="cart.html"><img src="../Images/shopping.png" alt="Cart"></a></p>
+
+        </header>
+        <main>
+
+            <section id="contactsBlock">
+                <article class="contacts">
+                    <h3>Our contacts:</h3>
+                    <p id="num">+353 87 9504653 <br>
+                        <a href="mailto:maxice777163@gmail.com">maxice777163@gmail.com</a></a>
+                    </p>
+                    <form id="myForm" action="">
+                        <fieldset>
+
+                            <input class="form-name" required id="firstname" type="text" name="firstname"
+                                placeholder="Firstname" />
+
+                            <input class="form-name" required id="lastname" type="text" name="lastname"
+                                placeholder="Lastname" />
+                            
+                            <input class="form-bottom" required id="email" type="email" name="email"
+                                placeholder="Email" />
+
+                            <textarea class="form-bottom" required id="сomments" name="сomments"
+                                placeholder="Comments"></textarea>
+
+                            <input class="form-button" type="submit" value="OK!">
+
+                        </fieldset>
+                    </form>
+                </article>
+                <aside id="map">
+                    <!-- google map -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436871.009462155!2d-8.2177501!3d53.383399999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4859bae45c4027fb%3A0xcf7c1234cedbf408!2sIreland!5e0!3m2!1sen!2sie!4v1686395776255!5m2!1sen!2sie"
+                        width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </aside>
+            </section>
+
+
+        </main>
+
+        <footer id="footerC">
+            <small>
+                &copy; 2023, Tour Ireland
+                <br>
+                All trademarks and registered trademarks appearing on
+                this site are the property of their respective owners.
+            </small>
+        </footer>
+    </div>
+</body>
+
+</html>

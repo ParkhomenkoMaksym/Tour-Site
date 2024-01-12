@@ -1,0 +1,359 @@
+body {
+    background-image: url("../Images/Ireland.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+.pageContainer {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+#imgTour {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+
+    list-style-type: none;
+    color: #fff;
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+    /* position: relative; */
+    /* top: 40px;
+  left: 50px;
+  width: 200px;
+  height: 100px; */
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    padding: 0.50em 2em;
+    margin: 0.25em 1em;
+    font-size: 1.25em;
+    transition: font-size 0.5s ease-in-out, font-size 0.5s ease-in-out;
+}
+
+.navigation a:hover {
+    color: #d0cfcf;
+    font-size: 1.4em;
+    background-color: #d3d0d026;
+
+
+}
+
+.selected {
+    color: #9dcdf4;
+    display: block;
+    padding: 0.75em 3em;
+    font-size: 1.25em;
+}
+
+#cart {
+
+
+    margin: 10px;
+}
+
+/* #cart a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 0.75em 3em;
+  
+} */
+video { 
+    position: relative;
+    float: right;
+    margin-right: 90px;
+    margin-bottom: 90px;
+
+}
+
+form {
+    width: auto;
+    margin-top: 2em;
+    padding-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+
+}
+
+fieldset {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.form-name,
+.form-bottom {
+    border-radius: 0.7em;
+    margin: 0.5em;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.form-name {
+    margin-right: 0;
+    display: inline;
+    width: 16.6em;
+}
+
+.form-bottom {
+    width: 100%;
+}
+
+.form-button {
+    margin: 0 0.5em 0.6em;
+    width: 5em;
+    font-size: small;
+    border-radius: 0.7em;
+}
+
+.zoo {
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    padding-right: 0;
+}
+
+.contacts {
+    margin-top: 7.9em;
+    margin-left: 18px;
+    width: 30em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2,
+h3,
+.aboutP {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-right: 5px;
+}
+
+p a {
+    color: #ffffff;
+
+}
+
+.about {
+    float: right;
+    width: 50em;
+}
+
+.aboutP {
+    font-size: 1.2em;
+    display: block;
+}
+#contactsBlock{
+    margin: 0;
+    padding: 0;
+}
+#map {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    margin: 0;
+    padding: 0;
+    right: 34em;
+    top: 11em;
+
+}
+
+#tickets {
+    position: fixed;
+    top: 350px;
+    right: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes example {
+    from {
+        top: 350px;
+        right: 0px;
+    }
+
+    to {
+        top: 350px;
+        right: -90px;
+    }
+}
+
+#tickets a,
+#imgPass {
+    border: none;
+
+}
+
+#tickets a:hover {
+    position: fixed;
+    top: 350px;
+    right: 0px;
+
+
+}
+
+#imgGrid {
+    display: grid;
+    align-content: space-around;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    gap: 4em;
+    margin: 0 10em;
+    padding: 0;
+}
+
+#zoo {
+    width: 305px;
+    height: 234px;
+    background-repeat: no-repeat;
+    animation: mymove1 15s infinite;
+
+    animation-direction: reverse;
+}
+
+
+
+@keyframes mymove1 {
+    0% {
+        background-image: url("/images/zoo1.jpg");
+    }
+
+    25% {
+        background-image: url("/images/zoo2.jpg");
+    }
+
+    75% {
+        background-image: url("/images/zoo3.jpg");
+    }
+
+    100% {
+        background-image: url("/images/zoo4.jpg");
+    }
+
+}
+#rock {
+    width: 305px;
+    height: 234px;
+    background-repeat: no-repeat;
+    animation: mymove2 15s infinite;
+
+    animation-direction: reverse;
+}
+
+
+
+@keyframes mymove2 {
+    0% {
+        background-image: url("/images/rocks1.jpg");
+    }
+
+    25% {
+        background-image: url("/images/rocks2.jpg");
+    }
+
+    75% {
+        background-image: url("/images/rocks3.jpg");
+    }
+
+    100% {
+        background-image: url("/images/rocks4.jpg");
+    }
+
+}
+#castle {
+    width: 305px;
+    height: 234px;
+    background-repeat: no-repeat;
+    animation: mymove3 15s infinite;
+
+    animation-direction: reverse;
+}
+
+
+
+@keyframes mymove3 {
+    0% {
+        background-image: url("/images/castle1.jpg");
+    }
+
+    25% {
+        background-image: url("/images/castle2.jpg");
+    }
+
+    75% {
+        background-image: url("/images/castle3.jpg");
+    }
+
+    100% {
+        background-image: url("/images/castle4.jpg");
+    }
+
+}
+.buy a {
+    position: relative;
+    text-decoration: none;
+    top: 11.6em;
+    background-color: #fff;
+    color: #000000;
+    padding: 2px 6.97em;
+    text-align: center;
+
+}
+.imgItem, #num{
+    position: relative;
+    top: -1em;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+}
+footer{
+    color: #fff;
+    position: relative;
+    top: 30em;
+    width: 20em;
+    margin: 1em;
+}
+#footerC{
+    color: #fff;
+    position: relative;
+    top: 3.3em;
+    width: 20em;
+    margin: 1em;
+}
+#footerA{
+    color: #fff;
+    position: relative;
+    top: 15.35em;
+    width: 20em;
+    margin: 1em;
+}
