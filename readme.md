@@ -33,8 +33,4 @@ Ideas for further development:
 1. expand the range of attractions. 
 2. hotel reservations. 
 
-<!-- Any code not working properly? The feature is ___________ and evidence of it can be found on Page ________________
-
-Any additional stylesheets/frameworks used that were approved are:
-1.
-2. -->
+This is a new line of text
